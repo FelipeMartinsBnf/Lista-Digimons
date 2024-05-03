@@ -8,7 +8,7 @@ Para toda a parte da pesquisa e dos filtros, eu ainda não sei muito bem como im
 
 ## Como Iniciar o Projeto
 
-**Link do projeto na Vercel: ---**
+**Link do projeto na Vercel: https://teste-lista-digimons.vercel.app/**
 
 Caso queira rodar o projeto localmente, é necessário ter instalado o seguinte:
 
