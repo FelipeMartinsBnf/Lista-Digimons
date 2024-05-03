@@ -1,26 +1,19 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Header from './containers/Header' // Importa o componente Header
+import Listagem from './containers/Listagem' // Importa o componente Listagem
+import EstiloGlobal from './styles' // Importa o estilo global
 
+/**
+ * Componente principal da aplicação.
+ * Renderiza o Header, a Listagem e aplica o estilo global.
+ */
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+      <EstiloGlobal />
+      <Header />
+      <Listagem />
+    </>
+  )
 }
 
-export default App;
+export default App
