@@ -3,8 +3,6 @@
 Eu escolhi fazer o teste em React, pois é uma linguagem que eu estou tendo bastante contato atualmente, além de conseguir deixar o código bem organizado. Eu usei o react com o TypeScript, além de usar outras ferramentas como o ESlint ou o Prettier para deixar o código mais limpo, e assim facilitar o entendimento.
 Eu segui o projeto do Figma mais ou menos a risca, tentei deixar o mais proximo possível.
 
-**Ainda não consegui fazer a parte da pesquisa:**
-Para toda a parte da pesquisa e dos filtros, eu ainda não sei muito bem como implementar, mesmo pesquisando ainda me parece ser bem complicado. Estou upando esta versão pois não sei se terei tempo para conseguir entender e depois implementar essa parte.
 
 ## Como Iniciar o Projeto
 
@@ -43,6 +41,8 @@ O teste foi criado se baseando em três componentes principais:
 - **DetalhesDigi**: exibe os detalhes de um Digimon em um modal, incluindo nome, imagem, nível e descrição.
 
 Os estilos são aplicados utilizando a biblioteca Styled Components, e a comunicação com a API é feita utilizando o fetch API do JavaScript.
+
+- Fiz também o sistema de filtros e de busca, não estão implementados da melhor maneira, pois é bastante complicado fazer isso com o react, a melhor opção aqui seria usar o redux para controlar o estado dos filtros e da pesquisa, mas para não complicar muito resolvi fazer da mais simples.
 
 ---
 

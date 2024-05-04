@@ -6,10 +6,6 @@ export const DivDigimon = styled.div`
   border-radius: 10px;
   padding: 10px;
   text-align: center;
-  flex-basis: calc(
-    20% - 20px
-  ); /* Cada produto ocupa 20% da largura, com 20px de margem */
-  margin-bottom: 20px;
 
   @media only screen and (max-width: 600px) {
     margin: 14px 28px;
