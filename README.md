@@ -6,7 +6,7 @@ Eu segui o projeto do Figma mais ou menos a risca, tentei deixar o mais proximo 
 
 ## Como Iniciar o Projeto
 
-**Link do projeto na Vercel: ---**
+**Link do projeto na Vercel: https://teste-lista-digimons.vercel.app/**
 
 Caso queira rodar o projeto localmente, é necessário ter instalado o seguinte:
 
